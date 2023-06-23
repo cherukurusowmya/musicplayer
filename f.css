@@ -1,0 +1,85 @@
+.pic{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: url(bgm6.jpg);
+    background-repeat: no-repeat;
+    width: max-content;
+    background-size: cover;
+    transition: background 1s linear;
+}
+.pic:hover{
+    padding:0;
+    margin: 0;
+    height: 100vh;
+    background-image: url(bgm6.jpg);
+    background-repeat: no-repeat;
+    width: max-content;
+    background-size: cover;
+    animation: picture 3s infinite;
+}
+@keyframes picture{
+    0%{
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        background-image: url(bgm6.jpg);
+        background-repeat: no-repeat;
+        width: max-content;
+        background-size: cover;
+    }
+    25%{
+        padding: 0;
+        margin: 0;
+        background-image: url(bgm5.jpg);
+        background-repeat: no-repeat;
+        width: max-content;
+        background-size: cover;
+    }
+    50%{
+        padding: 0;
+        margin: 0;
+        background-image: url(bgm2.jpg);
+        background-repeat: no-repeat;
+        width: max-content;
+        background-size: cover;
+    }
+    75%{
+        padding: 0;
+        margin: 0;
+        background-image: url(bgm3.avif);
+        background-repeat: no-repeat;
+        width: max-content;
+        background-size: cover;
+    }
+    100%{
+        padding: 0;
+        margin: 0;
+        background: url(bgm4.jpg);
+        background-repeat: no-repeat;
+        width: max-content;
+        background-size: cover;
+    }
+}
+.topnav {
+    background-color: lightseagreen;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 180vh;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
